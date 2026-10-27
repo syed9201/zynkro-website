@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ZYNKRO — Just memes. No limits. A community-first meme project in development.">
+  <meta name="theme-color" content="#100a24">
+  <title>ZYNKRO — Just Memes. No Limits.</title>
+  <style>
+    :root{--bg:#100a24;--panel:#1a1235;--ink:#fff9ff;--muted:#c9bfdc;--pink:#ff48d7;--cyan:#40e8ff;--gold:#ffd84a}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 75% 0%,#38205d 0,transparent 38%),var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+    a{color:inherit}
+    .wrap{width:min(1120px,92%);margin:auto}
+    nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:18px}
+    .brand{font-size:1.35rem;font-weight:1000;letter-spacing:.12em;color:var(--gold);text-decoration:none}
+    nav .links{display:flex;gap:22px;flex-wrap:wrap}
+    nav .links a{text-decoration:none;color:var(--muted);font-weight:700;font-size:.94rem}
+    .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:center;padding:55px 0 70px}
+    .eyebrow{color:var(--cyan);font-weight:900;letter-spacing:.18em;text-transform:uppercase;font-size:.78rem}
+    h1{font-size:clamp(3.2rem,9vw,6.7rem);line-height:.92;letter-spacing:-.06em;margin:16px 0}
+    h1 span{color:var(--gold);text-shadow:4px 4px 0 #8e2b99}
+    .lead{font-size:1.15rem;color:var(--muted);max-width:560px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+    .btn{display:inline-block;padding:13px 19px;border-radius:14px;text-decoration:none;font-weight:900;border:1px solid #ffffff30}
+    .primary{background:linear-gradient(100deg,var(--pink),#a64dff);color:white;border:0;box-shadow:0 8px 30px #ff48d733}
+    .secondary{background:#ffffff08}
+    .notice{font-size:.88rem;color:#d6cce5;border-left:3px solid var(--gold);padding:10px 14px;background:#ffffff08;border-radius:0 10px 10px 0}
+    .mascot{width:100%;display:block;border-radius:28px;border:1px solid #ffffff25;box-shadow:0 22px 75px #8e2b9940}
+    .placeholder{min-height:380px;display:grid;place-items:center;text-align:center;background:linear-gradient(145deg,#38205d,#11102c);border:1px solid #ffffff20;border-radius:28px;padding:28px;font-size:1.3rem;font-weight:900}
+    section{padding:58px 0}
+    .section-head{max-width:700px;margin-bottom:28px}
+    h2{font-size:clamp(2rem,5vw,3.4rem);line-height:1.05;margin:8px 0 14px;letter-spacing:-.04em}
+    .sub{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{background:linear-gradient(150deg,#ffffff0d,#ffffff04);border:1px solid #ffffff18;border-radius:20px;padding:24px}
+    .icon{font-size:2rem}
+    .card h3{margin:8px 0}
+    .tokenomics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .stat{padding:20px;border-radius:16px;background:#ffffff0a;border:1px solid #ffffff18}
+    .stat strong{display:block;font-size:1.4rem;color:var(--gold)}
+    .stat span{font-size:.88rem;color:var(--muted)}
+    .roadmap{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .phase{border-top:3px solid var(--pink)}
+    .phase:nth-child(2){border-color:var(--cyan)}
+    .phase:nth-child(3){border-color:var(--gold)}
+    .pill{display:inline-block;font-size:.78rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;border:1px solid #ffffff25;border-radius:999px;padding:5px 10px;color:var(--cyan)}
+    .community{background:linear-gradient(120deg,#5a1b6c55,#087d9850);border:1px solid #ffffff20;border-radius:26px;padding:34px}
+    footer{border-top:1px solid #ffffff18;padding:28px 0 40px;color:var(--muted);font-size:.88rem}
+    footer .foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    @media(max-width:780px){.hero{grid-template-columns:1fr;padding-top:32px}.grid,.roadmap{grid-template-columns:1fr}.tokenomics{grid-template-columns:repeat(2,1fr)}nav{align-items:flex-start;flex-direction:column}.links{gap:14px!important}.mascot{max-width:540px;margin:auto}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#">ZYNKRO 👾</a>
+      <div class="links"><a href="#about">About</a><a href="#token">Token Plan</a><a href="#roadmap">Roadmap</a><a href="#community">Community</a></div>
+    </nav>
+    <main>
+      <section class="hero">
+        <div>
+          <div class="eyebrow">A meme universe in the making</div>
+          <h1>JUST MEMES.<br><span>NO LIMITS.</span></h1>
+          <p class="lead">Meet ZYNKRO: a chaotic little cosmic creature built for internet jokes, community creativity, and good vibes.</p>
+          <div class="actions">
+            <a class="btn primary" href="#community">Join the community</a>
+            <a class="btn secondary" href="#token">Explore the plan</a>
+          </div>
+          <p class="notice"><strong>Project status:</strong> In development. No token has been launched yet. No token address or exchange listing is being claimed.</p>
+        </div>
+        <div>
+          <img class="mascot" src="assets/zynkro-mascot.png" alt="ZYNKRO's colourful cosmic cartoon mascot" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="placeholder" style="display:none">👾<br>ZYNKRO<br><small>Just memes. No limits.</small></div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="section-head"><div class="eyebrow">The idea</div><h2>Weird is welcome here.</h2><p class="sub">ZYNKRO is planned as a funny, community-first meme brand. The goal is to make a character people want to remix, share, and build stories around—not to promise anyone a profit.</p></div>
+        <div class="grid">
+          <article class="card"><div class="icon">😂</div><h3>Meme-first</h3><p class="sub">Reaction images, short clips, community jokes, and creative challenges.</p></article>
+          <article class="card"><div class="icon">🌎</div><h3>Open community</h3><p class="sub">A welcoming global community with clear rules and transparent updates.</p></article>
+          <article class="card"><div class="icon">🔎</div><h3>Transparency</h3><p class="sub">Token details, creator holdings, liquidity plans, and risks should be disclosed before any launch.</p></article>
+        </div>
+      </section>
+
+      <section id="token">
+        <div class="section-head"><div class="eyebrow">Draft only — not launched</div><h2>Token plan</h2><p class="sub">These are preliminary ideas, not verified on-chain facts. The final plan depends on name checks, costs, security, and legal review.</p></div>
+        <div class="tokenomics">
+          <div class="stat"><strong>Solana</strong><span>Proposed network</span></div>
+          <div class="stat"><strong>ZYNKRO</strong><span>Proposed name / symbol; availability unconfirmed</span></div>
+          <div class="stat"><strong>1B</strong><span>Proposed supply; not minted</span></div>
+          <div class="stat"><strong>Fair launch</strong><span>Intended approach; rules not finalized</span></div>
+        </div>
+        <p class="notice" style="margin-top:18px">Cryptocurrency is high risk. A token can lose all its value; market cap does not mean you can sell all holdings at that price. Never invest money you cannot afford to lose.</p>
+      </section>
+
+      <section id="roadmap">
+        <div class="section-head"><div class="eyebrow">Build in public</div><h2>Roadmap</h2><p class="sub">A sensible order of work—no artificial deadlines or promises.</p></div>
+        <div class="roadmap">
+          <article class="card phase"><span class="pill">Phase 1</span><h3>Brand & identity</h3><p class="sub">Confirm name availability, finalize mascot and website, and publish clear project information.</p></article>
+          <article class="card phase"><span class="pill">Phase 2</span><h3>Community</h3><p class="sub">Open social channels, share memes, publish community rules, and listen to feedback.</p></article>
+          <article class="card phase"><span class="pill">Phase 3</span><h3>Launch review</h3><p class="sub">Check costs, token distribution, liquidity, authority settings, and security before deciding whether to launch.</p></article>
+        </div>
+      </section>
+
+      <section id="community">
+        <div class="community">
+          <div class="eyebrow">Come make the memes</div>
+          <h2>The community starts with you.</h2>
+          <p class="sub">Social links will be added after official accounts are created and secured. Until then, please beware of impersonators and fake token addresses.</p>
+          <a class="btn primary" href="#about">Explore ZYNKRO</a>
+        </div>
+      </section>
+    </main>
+    <footer><div class="foot"><span>© <span id="year"></span> ZYNKRO — Just memes. No limits.</span><span>Unofficial concept website · Not financial advice · No token launched</span></div></footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
