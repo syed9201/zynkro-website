@@ -1,1 +1,16 @@
-
+{
+  "name": "ZYNKRO",
+  "symbol": "ZYNKRO",
+  "description": "ZYNKRO — JUST MEMES. NO LIMITS. A community-driven meme token experiment on Solana Devnet.",
+  "image": "https://syed9201.github.io/zynkro-website/assets/zynkro-mascot.png",
+  "attributes": [],
+  "properties": {
+    "category": "image",
+    "files": [
+      {
+        "uri": "https://syed9201.github.io/zynkro-website/assets/zynkro-mascot.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}
